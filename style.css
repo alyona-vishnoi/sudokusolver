@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(246, 172, 245);
+}
+h1{
+    font-family: "Poppins", sans-sefif;
+    text-align: center;
+    color: purple;
+}
+
+.puzzle{
+    width: 450px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+}
+
+.puzzle input{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 1px palevioletred solid;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+button{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px palevioletred solid;
+    background-color: pink;
+}
+
+#solution{
+    font-family: "Poppins", sans-sefif;
+    text-align: center;
+    color: purple;
+}
+
+.puzzle .odd-section{
+    background-color: pink;
+}
